@@ -21,6 +21,7 @@ const LoginCover = () => {
     });
 
     const { login, user } = useUser();
+    
     useEffect(() => {
         dispatch(setPageTitle('Login'));
         if (user) {
